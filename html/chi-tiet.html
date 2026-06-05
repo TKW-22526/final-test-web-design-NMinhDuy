@@ -1,0 +1,175 @@
+```html
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chi Tiết Sản Phẩm</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+.header{
+    background:#111;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+.header h1{
+    color:#ffc107;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.15);
+
+    display:flex;
+    gap:40px;
+}
+
+.product-image{
+    flex:1;
+}
+
+.product-image img{
+    width:100%;
+    border-radius:10px;
+}
+
+.product-info{
+    flex:1;
+}
+
+.product-info h2{
+    color:#222;
+    margin-bottom:15px;
+}
+
+.price{
+    color:red;
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.description{
+    line-height:1.8;
+    color:#555;
+    margin-bottom:25px;
+}
+
+.btn{
+    background:red;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    font-size:16px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background:#c40000;
+}
+
+.specs{
+    margin-top:30px;
+}
+
+.specs h3{
+    margin-bottom:10px;
+}
+
+.specs ul{
+    padding-left:20px;
+}
+
+.specs li{
+    margin-bottom:8px;
+}
+
+.footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1>DuyMoto Shop</h1>
+</div>
+
+<div class="container">
+
+    <div class="product-image">
+        <img src="../assets/image/mamxe.jpg"
+             alt="Mâm Xe ">
+    </div>
+
+    <div class="product-info">
+
+        <h2>Mâm xe </h2>
+
+        <div class="price">
+            1.250.000 VNĐ
+        </div>
+
+        <div class="description">
+            Nón bảo hiểm Fullface LS2 được thiết kế
+            dành cho biker với độ an toàn cao,
+            kiểu dáng thể thao và trọng lượng nhẹ.
+        </div>
+
+        <a href="dangnhap.html">
+            <button class="btn">
+                Mua Ngay
+            </button>
+        </a>
+
+        <div class="specs">
+            <h3>Thông số sản phẩm</h3>
+
+            <ul>
+                <li>Thương hiệu: LS2</li>
+                <li>Chất liệu: ABS cao cấp</li>
+                <li>Màu sắc: Đen nhám</li>
+                <li>Size: M, L, XL</li>
+                <li>Bảo hành: 12 tháng</li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="footer">
+    © 2026 DuyMoto Shop
+</div>
+
+</body>
+</html>
+```

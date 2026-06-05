@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Shop phụ kiện</title>
+    <link rel = "stylesheet" href = "../css/stylesp.css">
+    <script src = "../js/script.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- HEADER -->
+<header class="header">
+    <div class="logo">
+        <i class="fa-solid fa-motorcycle"></i>
+        DuyMoto Shop
+    </div>
+
+    <nav>
+        <a href="gioi-thieu.html">Trang chủ </a>
+        <a href="san-pham.html">Sản Phẩm</a>
+        <a href="lien-he.html">Liên Hệ</a>
+    </nav>
+</header>
+
+<!-- BANNER -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>PHỤ KIỆN MOTO & XE MÁY</h1>
+        <p>Phụ kiện đa dạng cho các dòng moto - xe máy</p>
+    </div>
+</section>
+
+<!-- DANH SÁCH SẢN PHẨM -->
+<div class="container mt-5">
+    <div class="row" id="product-list"></div>
+</div>
+    <div class = "container" id = "container">
+        <div class="row" id = "product-list"> </div>
+
+    </div>
+    <!-- Nút giỏ hàng -->
+<div class="cart-box">
+    <div class="cart-count">0</div>
+
+    <a href="#">
+        🛒
+    </a>
+
+    <!-- Box thanh toán -->
+    <div class="cart-popup">
+        <p>0 SẢN PHẨM</p>
+
+        <div class="total">
+            <span>Tổng cộng</span>
+            <span>0</span>
+        </div>
+
+        <button>THANH TOÁN</button>
+    </div>
+</div>
+    <script>
+       // Display Data from the Object:
+        /*for(let i = 0; i<productList.length; i++)
+            addProduct(productList[i].id, productList[i].name, productList[i].price, productList[i].image, productList[i].productLink);
+        */
+        productList.forEach(product => {
+            addProduct(product.id, product.name, product.price, product.image, product.productLink);
+        });
+    </script>
+    <div class="cart-box">
+
+    <div class="cart-count">0</div>
+
+    <a href="#">🛒</a>
+
+    <div class="cart-popup">
+
+        <div class="cart-products">
+            <!-- Sản phẩm sẽ hiện ở đây -->
+        </div>
+
+        <div class="total">
+            <span>Tổng cộng</span>
+            <span class="cart-total-price">0đ</span>
+        </div>
+
+        <button>THANH TOÁN</button>
+
+    </div>
+
+</div>
+<!-- CONTACT FIXED -->
+<div class="contact-fixed">
+
+    <a href="mailto:duymoto@gmail.com" class="contact-item email">
+        <i class="fa-solid fa-envelope"></i>
+        <span>duymoto@gmail.com</span>
+    </a>
+
+    <a href="tel:0869219091" class="contact-item hotline">
+        <i class="fa-solid fa-phone"></i>
+        <span>0869109091</span>
+    </a>
+
+</div>
+</body>
+</html>

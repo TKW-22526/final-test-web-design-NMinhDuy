@@ -1,0 +1,235 @@
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+/* HEADER */
+.header{
+    background:linear-gradient(135deg,#111,#333);
+    color:white;
+    padding:20px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:32px;
+    font-weight:bold;
+    color:#ffcc00;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-size:18px;
+}
+
+.menu a:hover{
+    color:#ffcc00;
+}
+
+/* BANNER */
+.banner{
+    height:350px;
+    background:url("https://images.unsplash.com/photo-1558981806-ec527fa84c39")
+    center/cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.banner-box{
+    background:rgba(0,0,0,0.6);
+    padding:30px;
+    border-radius:10px;
+}
+
+.banner h1{
+    color:white;
+    font-size:45px;
+}
+
+.banner p{
+    color:#ddd;
+    margin-top:10px;
+    font-size:18px;
+}
+
+/* LAYOUT */
+.container{
+    width:90%;
+    margin:40px auto;
+    display:flex;
+    gap:30px;
+}
+
+/* SIDEBAR */
+.sidebar{
+    width:300px;
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.sidebar h4{
+    color:red;
+    margin:20px 0 10px;
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar li{
+    padding:8px 0;
+    border-bottom:1px solid #eee;
+}
+
+/* CONTENT */
+.content{
+    flex:1;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.title{
+    color:red;
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.line{
+    height:4px;
+    background:red;
+    margin-bottom:25px;
+}
+
+.text{
+    line-height:1.8;
+    color:#444;
+    font-size:18px;
+}
+
+.text p{
+    margin-bottom:15px;
+}
+
+/* CONTACT */
+.contact{
+    margin-top:30px;
+    background:#f8f8f8;
+    padding:20px;
+    border-left:5px solid red;
+}
+
+/* FOOTER */
+.footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+</style>
+
+<body>
+
+<!-- HEADER -->
+<div class="header">
+    <div class="logo">DUYMOTO SHOP</div>
+
+    <div class="menu">
+        <a href="gioi-thieu.html">Trang chủ</a>
+        <a href="san-pham.html">Sản Phẩm</a>
+        <a href="#">Liên Hệ</a>
+    </div>
+</div>
+
+<!-- BANNER -->
+<div class="banner">
+    <div class="banner-box">
+        <h1>PHỤ KIỆN MOTO & XE MÁY</h1>
+        <p>Chuyên cung cấp phụ kiện - đồ chơi - bảo hộ chính hãng</p>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="sidebar">
+
+        <h4>TRANG PHỤC - BẢO HỘ</h4>
+        <ul>
+            <li>▶ Tai nghe Bluetooth</li>
+            <li>▶ Nón bảo hiểm</li>
+            <li>▶ Giáp bảo hộ</li>
+            <li>▶ Balo - Túi</li>
+            <li>▶ Găng tay</li>
+            <li>▶ Giày bảo hộ</li>
+        </ul>
+
+        <h4>PHỤ KIỆN DÀN ĐẦU</h4>
+        <ul>
+            <li>▶ Đầu đèn</li>
+            <li>▶ Tay phanh</li>
+            <li>▶ Tay nắm</li>
+            <li>▶ Giá đỡ điện thoại</li>
+        </ul>
+
+    </div>
+
+    <div class="content">
+
+        <div class="title">GIỚI THIỆU</div>
+
+        <div class="line"></div>
+
+        <div class="text">
+
+            <p><strong>DuyMoto Shop - Đồng hành cùng Biker Việt Nam.</strong></p>
+
+            <p>
+                Chúng tôi chuyên cung cấp các sản phẩm phụ kiện, đồ chơi,
+                thiết bị bảo hộ và nâng cấp xe máy, moto từ nhiều thương hiệu uy tín.
+            </p>
+
+            <p>
+                Với phương châm "Chất lượng - Uy tín - Giá hợp lý",
+                DuyMoto Shop luôn mang đến cho khách hàng những sản phẩm tốt nhất.
+            </p>
+
+            <p>
+                Đội ngũ tư vấn nhiệt tình sẽ giúp bạn lựa chọn những món phụ kiện
+                phù hợp nhất cho chiếc xe của mình.
+            </p>
+
+            <div class="contact">
+                <h3>THÔNG TIN LIÊN HỆ</h3>
+                <p>📍 Huyền Hội, Càng Long, Vĩnh Long</p>
+                <p>📞 Hotline: 0869 219 091</p>
+                <p>📧 Email: duymotoshop@gmail.com</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="footer">
+    © 2026 DuyMoto Shop | Phụ kiện Moto & Xe Máy Chính Hãng
+</div>
+
+</body>

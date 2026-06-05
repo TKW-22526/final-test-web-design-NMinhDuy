@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#efefef;
+}
+
+/* MENU */
+.navbar{
+    width:90%;
+    margin:20px auto;
+    background:red;
+    display:flex;
+    align-items:center;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    padding:15px 16px;
+    font-size:16px;
+}
+
+.navbar a:first-child{
+    background:#666;
+}
+
+/* LAYOUT */
+.container{
+    width:90%;
+    margin:auto;
+    display:flex;
+    gap:25px;
+}
+
+/* SIDEBAR */
+.sidebar{
+    width:300px;
+    background:#fff;
+    border:1px solid #ccc;
+    padding:14px;
+}
+
+.sidebar h3{
+    font-size:18px;
+    color:#444;
+    margin-bottom:16px;
+}
+
+.sidebar h4{
+    color:#444;
+    font-size:16px;
+    margin-top:20px;
+    margin-bottom:10px;
+    border-top:1px dotted #999;
+    padding-top:14px;
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar li{
+    padding:3px 0;
+    font-size:16px;
+}
+
+/* RIGHT */
+.content{
+    flex:1;
+}
+
+/* TITLE */
+.title{
+    font-size:38px;
+    color:red;
+    font-weight:bold;
+    margin-bottom:16px;
+}
+
+/* LINE */
+.line{
+    width:100%;
+    height:4px;
+    background:linear-gradient(to right,#333 7%,red 7%);
+    margin-bottom:35px;
+}
+
+/* TEXT */
+.text{
+    color:#444;
+    font-size:18px;
+    line-height:1.4;
+}
+
+.text strong{
+    font-weight:bold;
+}
+
+.contact{
+    margin-top:25px;
+}
+
+.contact-title{
+    font-weight:bold;
+    font-size:18px;
+    margin-bottom:8px;
+}

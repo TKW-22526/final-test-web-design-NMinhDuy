@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Liên Hệ - DuyMoto Shop</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+/* HEADER */
+.header{
+    background:#111;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+.header h1{
+    color:#ffc107;
+}
+
+/* CONTACT BOX */
+.contact-container{
+    width:80%;
+    max-width:800px;
+    margin:50px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,.2);
+}
+
+.contact-container h2{
+    color:red;
+    margin-bottom:20px;
+}
+
+.contact-item{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin:20px 0;
+    font-size:18px;
+}
+
+.contact-item i{
+    width:40px;
+    height:40px;
+    background:red;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+}
+
+/* FORM */
+form{
+    margin-top:30px;
+}
+
+input, textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    background:red;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#cc0000;
+}
+
+/* FOOTER */
+.footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>DuyMoto Shop</h1>
+    <p>Phụ kiện Moto & Xe Máy Chính Hãng</p>
+</div>
+
+<div class="contact-container">
+
+    <h2>THÔNG TIN LIÊN HỆ</h2>
+
+    <div class="contact-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Huyền Hội, Càng Long, Vĩnh Long</span>
+    </div>
+
+    <div class="contact-item">
+        <i class="fa-solid fa-phone"></i>
+        <span>0869219091</span>
+    </div>
+
+    <div class="contact-item">
+        <i class="fa-solid fa-envelope"></i>
+        <span>duymoto@gmail.com</span>
+    </div>
+
+    <div class="contact-item">
+        <i class="fa-brands fa-facebook"></i>
+        <span>facebook.com/duymoto</span>
+    </div>
+
+    <form>
+        <h2>Gửi Tin Nhắn</h2>
+
+        <input type="text" placeholder="Họ và tên">
+
+        <input type="email" placeholder="Email">
+
+        <textarea rows="5"
+        placeholder="Nhập nội dung cần liên hệ..."></textarea>
+
+        <button type="submit">
+            Gửi Liên Hệ
+        </button>
+    </form>
+
+</div>
+
+<div class="footer">
+    © 2026 DuyMoto Shop - Phụ kiện Moto & Xe Máy
+</div>
+
+</body>
+</html>
