@@ -1,12 +1,12 @@
 const productList = [
-    {id: "01", name: "Mâm xe ", price:1250000, image:"../assets/image/mamxe.jpg", productLink:"http://127.0.0.1:5500/html/chi-tiet.html"},
-    {id: "02", name: "Phuộc Shark X2", price:1000000, image:"../assets/image/phuoc.jpg", productLink:"http://127.0.0.1:5500/html/chi-tiet.html"},
-    {id: "03", name: "Đĩa thắng", price:400000, image:"../assets/image/diathang.jpg", productLink:"http://127.0.0.1:5500/html/chi-tiet.html"},
-    {id: "04", name: "Chống đổ sườn xe", price:250000, image:"../assets/image/chongdo.jpg", productLink:"http://127.0.0.1:5500/html/chi-tiet.html"},
-    {id: "05", name: "Đèn hậu xe", price:500000, image:"../assets/image/denhau.jpg", productLink:"http://127.0.0.1:5500/html/chi-tiet.html"},
-    {id: "06", name: "Heo thắng brembo", price:1500000, image:"../assets/image/heo brembo.jpg", productLink:"http://127.0.0.1:5500/html/chi-tiet.html"},
-    {id: "07", name: "Két nước", price:250000, image:"../assets/image/ketnuoc.jpg", productLink:"http://127.0.0.1:5500/html/chi-tiet.html"},
-    {id: "08", name: "Pô Akrapovic - slip-on ", price:9000000, image:"../assets/image/poxe.png", productLink:"http://127.0.0.1:5500/html/chi-tiet.html"}
+    {id: "01", name: "Mâm xe ", price:1250000, image:"../assets/image/mamxe.jpg", productLink:"chi-tiet.html"},
+    {id: "02", name: "Phuộc Shark X2", price:1000000, image:"../assets/image/phuoc.jpg", productLink:"chi-tiet.html"},
+    {id: "03", name: "Đĩa thắng", price:400000, image:"../assets/image/diathang.jpg", productLink:"chi-tiet.html"},
+    {id: "04", name: "Chống đổ sườn xe", price:250000, image:"../assets/image/chongdo.jpg", productLink:"chi-tiet.html"},
+    {id: "05", name: "Đèn hậu xe", price:500000, image:"../assets/image/denhau.jpg", productLink:"chi-tiet.html"},
+    {id: "06", name: "Heo thắng brembo", price:1500000, image:"../assets/image/heo brembo.jpg", productLink:"chi-tiet.html"},
+    {id: "07", name: "Két nước", price:250000, image:"../assets/image/ketnuoc.jpg", productLink:"chi-tiet.html"},
+    {id: "08", name: "Pô Akrapovic - slip-on ", price:9000000, image:"../assets/image/poxe.png", productLink:"chi-tiet.html"}
 ];
 function addProduct(id, name, price, image, link)
 {
